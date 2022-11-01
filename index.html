@@ -1,1 +1,55 @@
-<h1>Test</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <META HTTP-EQUIV="expires" CONTENT="0">
+    <title>Hello</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            background-image: linear-gradient(100deg, #3498db, #27ae60, #9b59b6, #3498db, #f39c12, #d35400, #3498db, #27ae60);
+            background-size: 800%;
+            animation: bganimation 10s linear infinite;
+        }
+
+        h1 {
+            transform: translate(0px, -30%);
+            color: white;
+        }
+
+        @keyframes bganimation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello , Wds</h1>
+</body>
+
+</html>
